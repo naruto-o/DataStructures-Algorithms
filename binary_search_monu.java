@@ -20,6 +20,6 @@ public class binary_search_monu{
                 low = mid+1;
             }
         }
-        throw new IllegalArgumentException("no solution");
+        return -1;
     }
 }
